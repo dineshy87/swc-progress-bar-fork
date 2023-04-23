@@ -38,7 +38,7 @@ ${customStyles}
     scale="medium"
     dir="ltr"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -48,7 +48,7 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -58,7 +58,7 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -68,7 +68,7 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
   <sp-theme
     theme="express"
@@ -76,7 +76,7 @@ ${customStyles}
     scale="medium"
     dir="ltr"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -86,7 +86,7 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -96,7 +96,7 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 
   <sp-theme
@@ -106,6 +106,6 @@ ${customStyles}
     dir="ltr"
     part="container"
   >
-    <my-progress-bar></my-progress-bar>
+    <progress-and-meter></progress-and-meter>
   </sp-theme>
 `;

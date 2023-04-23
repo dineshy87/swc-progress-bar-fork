@@ -1,0 +1,11 @@
+{
+  "name": "@wcd/dineshy87.swc-progress-bar-fork-lgpq8aza",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve H0daZwrqfYXamkVzquST --open"
+  }
+}

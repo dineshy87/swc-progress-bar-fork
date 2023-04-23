@@ -14,12 +14,16 @@ export default class MyProgressBar extends LitElement {
   static styles = [
     css`
       :host {
-        width: 250px;
-        height: 150px;
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+      }
+
+      sp-progress-bar { 
+        padding: 22px;
       }
     `,
   ];

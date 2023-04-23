@@ -11,7 +11,7 @@ const customStyles = html`
               display: block;
               box-sizing: border-box;
               width: 100%;
-              min-height: 40vh;
+              /*min-height: 40vh;*/
               padding: var(--spectrum-global-dimension-size-100)
                   var(--spectrum-global-dimension-size-100)
                   calc(
@@ -24,6 +24,8 @@ const customStyles = html`
                   --spectrum-body-text-color,
                   var(--spectrum-alias-text-color)
               );
+              border: 8px solid #000;
+              border-bottom: 0px;
             }
   </style>
 `;
@@ -61,6 +63,44 @@ ${customStyles}
 
   <sp-theme
     theme="spectrum"
+    color="darkest"
+    scale="medium"
+    dir="ltr"
+    part="container"
+  >
+    <my-progress-bar></my-progress-bar>
+  </sp-theme>
+  <sp-theme
+    theme="express"
+    color="lightest"
+    scale="medium"
+    dir="ltr"
+  >
+    <my-progress-bar></my-progress-bar>
+  </sp-theme>
+
+  <sp-theme
+    theme="express"
+    color="light"
+    scale="medium"
+    dir="ltr"
+    part="container"
+  >
+    <my-progress-bar></my-progress-bar>
+  </sp-theme>
+
+  <sp-theme
+    theme="express"
+    color="dark"
+    scale="medium"
+    dir="ltr"
+    part="container"
+  >
+    <my-progress-bar></my-progress-bar>
+  </sp-theme>
+
+  <sp-theme
+    theme="express"
     color="darkest"
     scale="medium"
     dir="ltr"

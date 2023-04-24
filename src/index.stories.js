@@ -30,7 +30,7 @@ const customStyles = html`
   </style>
 `;
 
-export const story1 = () => html`
+export const story = () => html`
 ${customStyles}
   <sp-theme
     theme="spectrum"

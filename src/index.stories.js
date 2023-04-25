@@ -10,7 +10,7 @@ const customStyles = html`
               overflow-x: hidden;
               display: block;
               box-sizing: border-box;
-              width: 100%;
+              /*width: 100%;*/
               /*min-height: 40vh;*/
               padding: var(--spectrum-global-dimension-size-100)
                   var(--spectrum-global-dimension-size-100)
@@ -26,6 +26,7 @@ const customStyles = html`
               );
               border: 8px solid #000;
               border-bottom: 0px;
+              float:left;
             }
   </style>
 `;

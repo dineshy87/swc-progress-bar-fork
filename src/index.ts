@@ -78,6 +78,9 @@ export default class ProgressAndMeter extends LitElement {
       <div style="width: var(--spectrum-global-dimension-size-3000); height: var(--spectrum-global-dimension-size-2000); display: flex; flex-direction: column; align-items: center; justify-content: space-around; background-color: var(--spectrum-alias-background-color-modal-overlay); margin-top: 12px;">
         <sp-meter progress="42" over-background label="Tasks Completed">Using both</sp-meter>
       </div>
+      <sp-meter size="m" progress="71" label="Using label" positive></sp-meter>
+      <sp-meter size="m" progress="71" label="Using label" negative></sp-meter>
+      <sp-meter size="m" progress="71" label="Using label" notice></sp-meter> 
     `;
   }
 }
